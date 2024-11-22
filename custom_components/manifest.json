@@ -1,0 +1,11 @@
+{
+  "domain": "entity_wizard",
+  "name": "Entity Wizard",
+  "documentation": "https://github.com/cataseven/Entity-Wizard-for-Home-Assistant",
+  "issue_tracker": "https://github.com/cataseven/Entity-Wizard-for-Home-Assistant/issues", 
+  "codeowners": ["@cataseven"],
+  "config_flow": true,
+  "dependencies": [],
+  "requirements": [],
+  "version": "1.0"
+}
