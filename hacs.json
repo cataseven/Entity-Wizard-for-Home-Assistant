@@ -1,7 +1,7 @@
 {
     "name": "Entity Wizard",
     "description": "Services to replace entity's states and attributes with anything you want",
-    "category": "python_script",
+    "category": "integration",
     "homeassistant": "2023.11.2",
     "country": "TR",
     "version": "1.0",
