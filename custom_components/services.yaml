@@ -1,0 +1,49 @@
+set_state:
+  name: Set State
+  description: Sets the state of an entity.
+  fields:
+    entity_id:
+      description: The entity ID to set the state of.
+      example: light.living_room_lamp
+    state:
+      description: The new state for the entity.
+      example: "on"
+
+set_attributes:
+  name: Set Attributes
+  description: Sets or updates the attributes of an entity.
+  fields:
+    entity_id:
+      description: The entity ID to set the attributes of.
+      example: sensor.temperature
+    attributes:
+      description: A dictionary of attributes to set or update.
+      example:
+        friendly_name: Living Room Temperature
+        unit_of_measurement: °C
+
+set_state_attributes:
+  name: Set State and Attributes
+  description: Sets both the state and attributes of an entity.
+  fields:
+    entity_id:
+      description: The entity ID to set the state and attributes of.
+      example: climate.living_room
+    state:
+      description: The new state for the entity.
+      example: "heat"
+    attributes:
+      description: A dictionary of attributes to set or update.
+      example:
+        temperature: 22
+
+delete_attribute:
+  name: Delete Attribute
+  description: Deletes an attribute from an entity.
+  fields:
+    entity_id:
+      description: The entity ID to delete the attribute from.
+      example: input_text.notes
+    attribute:
+      description: The name of the attribute to delete.
+      example: edit_mode
