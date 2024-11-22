@@ -1,7 +1,7 @@
 {
     "name": "Entity Wizard",
-    "description": "Binance Wallet Balance and Price Tracker",
-    "category": "integration",
+    "description": "Services to replace entity's states and attributes with anything you want",
+    "category": "python_script",
     "homeassistant": "2023.11.2",
     "country": "TR",
     "version": "1.0",
